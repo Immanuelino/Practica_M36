@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio - Accesibilidad Web</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body style="background-color: rgb(172, 172, 178);" position="center" >
+  <header role="banner">
+    <h1 >Bienvenido a nuestro sitio</h1>
+    <nav role="navigation" aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contact.html">Contacto <--- Para acceder a Formulario de contacto!! </a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main> <!-- Contenido principal -->
+    <section>
+      <h2 >Productos Destacados</h2>
+      <img src="img/img2.jpg"  alt="Imagen de un reloj moderno" width="150" height="200"/>
+      <img src="img/img1.jpeg" alt="Imagen de un reloj moderno" width="200" height="200"/>
+      <img src="img/img3.jpg" alt="Imagen de un reloj moderno" width="250" height="200"/>
+    </section>
+
+    <section >
+      <h2>Descripción</h2>
+      <p >Este sitio aplica los principios de <span lang="en">accessibility</span> para garantizar una experiencia inclusiva. <br>
+        Tenemos todo tipo de productos de vestimenta y tecnología, puede checar con gusto nuestro catálogo de productos.</p>
+     
+  </main>
+
+  <footer role="contentinfo" aria-label="Información del pie de página">
+    <p>&copy; 2025 Sitio Accesible</p>
+  </footer>
+</body>
+</html>
